@@ -15,6 +15,8 @@ class Cylinder:
         self.diameter = diameter  # instance variable unique to each instance
         self.height = height
         self.direction = direction
+        
+        self.initForNX()
 
     def initForNX(self):
         theSession = NXOpen.Session.GetSession()

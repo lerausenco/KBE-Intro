@@ -18,6 +18,8 @@ class Sphere:
         self.color = color
         self.material = material
         self.body = None
+        
+        self.initForNX()
 
     def initForNX(self):
         theSession = NXOpen.Session.GetSession()

@@ -21,6 +21,8 @@ class Block:
         self.direction = direction
         self.color = color
         self.material = material
+        
+        self.initForNX()
 
     def initForNX(self):
         theSession = NXOpen.Session.GetSession()
