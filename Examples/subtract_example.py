@@ -10,9 +10,8 @@ from Shapes.Cylinder import Cylinder
 from Shapes.Cone import Cone
 
 sphere = Sphere(10, 10, 50, 25)
-#sphere.initForNX()
 
-cyl = Cylinder(10, 10, 50, 20, 12.5)
-#cyl.initForNX()
+cyl = Cylinder(10, 10, 50, 20, 12.5, [0,1,0])
+
 sphere.subtract(cyl)
 
